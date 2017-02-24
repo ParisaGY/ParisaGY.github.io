@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>useful command in pyhton</title>
+        <link rel="stylesheet" href="http://ParisaGY.github.io/theme/css/main.css" />
+        <link href="http://ParisaGY.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Parisa's Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://ParisaGY.github.io/">Parisa's Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://ParisaGY.github.io/category/deep-learning.html">Deep Learning</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/gitgithub.html">Git/Github</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/gpu.html">GPU</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/graph-database.html">Graph Database</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/internet-of-things.html">Internet of Things</a></li>
+                    <li class="active"><a href="http://ParisaGY.github.io/category/python.html">Python</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/stats.html">stats</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/story.html">Story</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://ParisaGY.github.io/useful-command-in-pyhton.html" rel="bookmark"
+           title="Permalink to useful command in pyhton">useful command in pyhton</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2016-12-07T11:10:00+01:00">
+                Published: Wed 07 December 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://ParisaGY.github.io/author/parisagy.html">ParisaGY</a>
+        </address>
+<p>In <a href="http://ParisaGY.github.io/category/python.html">Python</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Some useful commands python
+Python is a very powerful programming language. In this blog I am going to share some of cool stuff I learn during the GA program about python.</p>
+<p>1) Ask a user to input a string:
+reply = raw_input('Enter text, [type "stop" to quit]: ')</p>
+<p>2) Ask a user to input a string:
+reply = input("How many pounds does your suitcase weigh? ")</p>
+<p>Note: In pyhton 2.x-
+raw_input() takes whatever is typed on the console and returns it as a string.</p>
+<p>input() takes whatever is typed on the console and evaluates it as a python statement. It is required that you type a syntactically correct statement.</p>
+<p>In Python 3.x-</p>
+<p>input() works the same way as raw_input() does in Python2. raw_input() is non-existent.</p>
+<p>3) One of the cool things I learned was about .copydeepcopy(). In the following paragraphs I will tak about how and when we need to use this command.</p>
+<p>Consider you generate a list of data. </p>
+<p>df = [1,2,3,4,5]</p>
+<p>Then, you would like to generate a new list that has all the elements of the previous list except the first element. You probably do this:</p>
+<p>df_new= df[1:]</p>
+<p>Although, you did not change the original variable, when you print it, the original data also changes. 
+So, what is the solution?</p>
+<p>maybe the first solution that comes to your mind is:</p>
+<p>df_copy = df</p>
+<p>df_new= df_copy[1:]</p>
+<p>It is interesting that this solution does not work either. The solution I found is to import a library called "copy" and use it to make a copy of 
+the original data.</p>
+<p>import copy
+df_copy = copy.deepcopy(df)</p>
+<p>df_new= df_copy[1:]</p>
+<p>In this way you can make a copy from your data, modify the copy version without being worried about the original data. </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://ParisaGY.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

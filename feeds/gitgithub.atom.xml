@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Parisa's Blog - Git/Github</title><link href="http://ParisaGY.github.io/" rel="alternate"></link><link href="http://ParisaGY.github.io/feeds/gitgithub.atom.xml" rel="self"></link><id>http://ParisaGY.github.io/</id><updated>2016-12-22T01:00:00+01:00</updated><entry><title>Introduction to git branching</title><link href="http://ParisaGY.github.io/introduction-to-git-branching.html" rel="alternate"></link><published>2016-12-22T01:00:00+01:00</published><updated>2016-12-22T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-22:/introduction-to-git-branching.html</id><summary type="html">&lt;p&gt;Introduction to git branching&lt;/p&gt;
+&lt;p&gt;Git Branching is used when you want to add a new feature or fix a bug, you spawn a new branch to encapsulate your changes. 
+This makes ensure that unstable code is never committed to the main code base, and it gives you the chance to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Introduction to git branching&lt;/p&gt;
+&lt;p&gt;Git Branching is used when you want to add a new feature or fix a bug, you spawn a new branch to encapsulate your changes. 
+This makes ensure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.&lt;/p&gt;
+&lt;p&gt;The followings are comments used to make a new branch.&lt;/p&gt;
+&lt;p&gt;a) git branch nameofbranch
+b) git check out nameofbranch
+Note: we can use git checkout -b nameofbranch which works as steps a and b.
+c) git merge nameofbranch: moves the work from branch into the master, merge the branch into the master when master is selected (have asterisk).
+d) git rebase master: adds the branch to the master when branch is selected.
+e) git merge nameofbranch: merges the branch to the master
+f)git branch -d nameofbranch&lt;/p&gt;</content></entry><entry><title>Introduction to Git/Github</title><link href="http://ParisaGY.github.io/introduction-to-gitgithub.html" rel="alternate"></link><published>2016-12-22T01:00:00+01:00</published><updated>2016-12-22T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-22:/introduction-to-gitgithub.html</id><summary type="html">&lt;p&gt;Introduction to Git
+Git is a series of commands that helps us to keep track of all the different versions of a file.Git allows us to do collaboration, manage conflicts 
+and recall a specific version later.&lt;/p&gt;
+&lt;p&gt;A git projects consists of three parts:
+a) working directory where you create …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Introduction to Git
+Git is a series of commands that helps us to keep track of all the different versions of a file.Git allows us to do collaboration, manage conflicts 
+and recall a specific version later.&lt;/p&gt;
+&lt;p&gt;A git projects consists of three parts:
+a) working directory where you create, modify and/or delete files;
+b) staging area where you list changes you make to the working directory;
+c) repository: where git permanently saves all the changes.&lt;/p&gt;
+&lt;p&gt;The followings are some useful commands we need to use to set up a repository.&lt;/p&gt;
+&lt;p&gt;1) git init: this command initializes all the tools that "git" needs to begin tracking of changes in a file.&lt;/p&gt;
+&lt;p&gt;2) git status: shows the status of the changes after you modify a file.&lt;/p&gt;
+&lt;p&gt;3) git add filename: used to add a file to the staging area.
+Note: git add . adds all the changes of all the files to the staging area.&lt;/p&gt;
+&lt;p&gt;4) git diff filename: used to show the differences between the working directory and the staging area.&lt;/p&gt;
+&lt;p&gt;5) git commit -m "The comments" : used to permanently stores changes from the staging area inside the repository&lt;/p&gt;
+&lt;p&gt;6) git log: Shows the commit logs&lt;/p&gt;
+&lt;p&gt;Introduction to Github
+Github is a developer social network.Github uses git and hosting service for the git repository.&lt;/p&gt;
+&lt;p&gt;Introduction to repository:
+A repository holds all versions of a file and tracked changes.
+A brand new repository can be created by git init and an existing remote repository can be cloned to the local machine by git clone.&lt;/p&gt;</content></entry></feed>

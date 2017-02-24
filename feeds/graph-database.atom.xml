@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Parisa's Blog - Graph Database</title><link href="http://ParisaGY.github.io/" rel="alternate"></link><link href="http://ParisaGY.github.io/feeds/graph-database.atom.xml" rel="self"></link><id>http://ParisaGY.github.io/</id><updated>2017-01-07T01:00:00+01:00</updated><entry><title>Graph Database</title><link href="http://ParisaGY.github.io/graph-database.html" rel="alternate"></link><published>2017-01-07T01:00:00+01:00</published><updated>2017-01-07T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2017-01-07:/graph-database.html</id><summary type="html">&lt;p&gt;Graph Database in Data Science
+Relational databases have been used in software applications for the last three decades. 
+Virtually all of these database systems use SQL (Structured Query Language) for querying and maintaining the database. 
+They store highly structured data in tables using predefined columns of certain types and many …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Graph Database in Data Science
+Relational databases have been used in software applications for the last three decades. 
+Virtually all of these database systems use SQL (Structured Query Language) for querying and maintaining the database. 
+They store highly structured data in tables using predefined columns of certain types and many rows of the same type of information. 
+Relational databases require developers to strictly structure the data used in their applications. 
+In relational databases, references to rows and tables are indicated by key attributes and via foreign-key columns. 
+This is compute- and memory-intensive and have an exponential cost for many-to-many relationships.&lt;/p&gt;
+&lt;p&gt;Graph database uses graph structures for semantic queries with nodes, edges and properties to store and represent data. 
+The relationships allow data to be linked together directly, and in many cases retrieved with a simple query. 
+DataStax and Neo4j are two examples of graph databases.&lt;/p&gt;
+&lt;p&gt;In data science, analyzing data is the key operation to learn a model tied to a particular representation of data. 
+For example, graph database can be used in natural processing language, deep learning text classification, or recommender system development. 
+Graph databases provide an efficient storage and also and traversal of information about relationships. 
+Hence, graphs can be the input or the output of a machine learning processing.&lt;/p&gt;
+&lt;p&gt;References:
+-        Wikipedia contributors. "Relational database." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 19 Jan. 2017. Web. 8 Feb. 2017.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Neo4j, “From Relational to Neo4j,” last access to: “https://neo4j.com/developer/graph-db-vs-rdbms,” Feb 8, 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wikipedia contributors. "Graph database." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 31 Jan. 2017. Web. 8 Feb. 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Neo4j, “The next wave of disruption: Graph-based machine learning,” last access to: “https://neo4j.com/news/next-wave-disruption-graph-based-machine-learning/,” Feb 8, 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>

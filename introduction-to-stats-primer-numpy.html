@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Introduction to stats-primer-numpy</title>
+        <link rel="stylesheet" href="http://ParisaGY.github.io/theme/css/main.css" />
+        <link href="http://ParisaGY.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Parisa's Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://ParisaGY.github.io/">Parisa's Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://ParisaGY.github.io/category/deep-learning.html">Deep Learning</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/gitgithub.html">Git/Github</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/gpu.html">GPU</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/graph-database.html">Graph Database</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/internet-of-things.html">Internet of Things</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/python.html">Python</a></li>
+                    <li class="active"><a href="http://ParisaGY.github.io/category/stats.html">stats</a></li>
+                    <li><a href="http://ParisaGY.github.io/category/story.html">Story</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://ParisaGY.github.io/introduction-to-stats-primer-numpy.html" rel="bookmark"
+           title="Permalink to Introduction to stats-primer-numpy">Introduction to stats-primer-numpy</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2016-12-27T01:00:00+01:00">
+                Published: Tue 27 December 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://ParisaGY.github.io/author/parisagy.html">ParisaGY</a>
+        </address>
+<p>In <a href="http://ParisaGY.github.io/category/stats.html">stats</a>.</p>
+
+</footer><!-- /.post-info -->      <h2>Introduction to stats-primer-numpy.</h2>
+<p>There are two field of statistics:
+1)Descriptive statistics used to describe, summarize, and understand the data;
+2)Inferential statistics makes inferences and predictions about a population based on a sample of data taken from the population in question.</p>
+<p>The distribution of a statistical dataset (or a population) is a list or function showing all the possible values (or intervals) of the data and how often they occur.</p>
+<p>The Central Tendency provides descriptive information about the single numerical value that is considered to be the most typical of the values of a quantitative variable like mean, median, and mode.</p>
+<h2>How to calculate mean, median, and mode?</h2>
+<p>from numpy import mean, median
+from scipy.stats import mode
+mean(n)
+median(n)
+mode(n)
+where n is a list of float number.</p>
+<h2>What is skewness?</h2>
+<p>Skewness is lack of symmetry in a distribution of data.
+A positive-skewed distribution means the right side tail of the distribution is longer or fatter than the left.</p>
+<p>Likewise a negative-skewed distribution means the left side tail is longer or fatter than the right.</p>
+<p>Symmetric distributions have no skewness!</p>
+<p>Negative skew: mean &lt; median &lt; mode
+Positive skew: mode &lt; median &lt; mean</p>
+<p>OR</p>
+<p>If the mean &lt; median, the data are skewed left.
+If the mean &gt; median, the data are skewed right.</p>
+<h2>Introduction to Range, Variance and Standard Deviation</h2>
+<p>1) The range is the difference between the lowest and highest values of a distribution and can be calculated with:</p>
+<p>n_range = np.ptp(n)</p>
+<p>2) The variance is a numeric value used to describe how widely the numbers distribution vary and can be calculated with:</p>
+<p>variance = np.var(n)</p>
+<p>3) The standard deviation is the square root of the variance.</p>
+<p>std = np.std(n)</p>
+<p>which is the average of the sum of the squared distances of each number from the mean of the numbers.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://ParisaGY.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

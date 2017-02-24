@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Parisa's Blog</title><link href="http://ParisaGY.github.io/" rel="alternate"></link><link href="http://ParisaGY.github.io/feeds/all.atom.xml" rel="self"></link><id>http://ParisaGY.github.io/</id><updated>2017-02-07T01:00:00+01:00</updated><entry><title>Internet of Things</title><link href="http://ParisaGY.github.io/internet-of-things.html" rel="alternate"></link><published>2017-02-07T01:00:00+01:00</published><updated>2017-02-07T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2017-02-07:/internet-of-things.html</id><summary type="html">&lt;p&gt;Data Analytics in IoT
+Internet of Things (IoT) is the internetworking of a variety of computing and communication devices implemented in buildings, vehicles, industrial networks, and Utilities. IoT consists of embedded physical devices that collect and exchange data using ubiquitous wireless communication. A challenge in IoT applications is to process …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Data Analytics in IoT
+Internet of Things (IoT) is the internetworking of a variety of computing and communication devices implemented in buildings, vehicles, industrial networks, and Utilities. IoT consists of embedded physical devices that collect and exchange data using ubiquitous wireless communication. A challenge in IoT applications is to process and interpret the huge amount of data gathered by IoT devices. In conventional data science, Big data usually lives in the Cloud, however, this operation is critical for large-scale IoT deployments because of the sheer volumes of data being generated. Hence, IoT vendors such as Cisco and Intel propose Edge Analytics to process the data near the source so that sending all data to the Cloud is not necessary.&lt;/p&gt;
+&lt;p&gt;Edge analytics in IoT is very challenging due to limited computational power on the edge IoT devices, e.g., Raspberry Pi. Moreover, since the edge analytics is performed in real-time as data is generated, using fast and light-weight analytical tools is a key. Ajit Jaokar from FutureText believes that edge analytics in IoT requires 1) real time tagging to distinguish between useful real data and noise since IoT data at the edge is unstructured and created from various sources; and 2) real-time data aggregation and correlation to detect emerging events and in the context of each IoT application domain.&lt;/p&gt;
+&lt;p&gt;References:
+-        Wikipedia contributors. "Internet of things." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 8 Feb. 2017. Web. 9 Feb. 2017.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ajit Jaokar, “Data Science for Internet of Things (IoT): Ten Differences from Traditional Data Science,” available at http://www.kdnuggets.com/2016/09/data-science-iot-10-differences.html&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>GPU</title><link href="http://ParisaGY.github.io/gpu.html" rel="alternate"></link><published>2017-01-28T01:00:00+01:00</published><updated>2017-01-28T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2017-01-28:/gpu.html</id><summary type="html">&lt;p&gt;Machine Learning with GPU
+The CPU (central processing unit) has been called the brain of computer systems. On the other hand, 
+the GPU (graphics processing unit) is a specialized electronic chip produced to play as the soul of 
+these systems as claimed by NVIDIA, one of the many companies that …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Machine Learning with GPU
+The CPU (central processing unit) has been called the brain of computer systems. On the other hand, 
+the GPU (graphics processing unit) is a specialized electronic chip produced to play as the soul of 
+these systems as claimed by NVIDIA, one of the many companies that produces GPUs. GPU is designed to 
+rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer 
+intended for output to a display device. Thus, GPUs are very efficient at manipulating computer graphics and image processing.&lt;/p&gt;
+&lt;p&gt;GPU-accelerated computing has recently grown into a mainstream movement supported 
+by the Apple and Microsoft operating systems from and can now take on many multimedia tasks. 
+The high-parallelism inherent to the GPU makes it well-suited to address computational intensive 
+machine learning algorithms. For example, GPUMLib is an open source GPU machine learning library proposed to 
+provide the building blocks of machine learning software. Recently, a GPU-based machine learning library on Apache Spark, 
+called BIDData, is proposed by researchers in UC Berkeley.&lt;/p&gt;
+&lt;p&gt;References:
+-        Wikipedia contributors. "Graphics processing unit." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 3 Feb. 2017. Web. 8 Feb. 2017.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NVIDIA, “What’s the Difference Between a CPU and a GPU?” Access: 3 Feb. 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lopes, Noel, and Bernardete Ribeiro. "GPUMLib: An efficient open-source GPU machine learning library." International Journal of Computer Information Systems and Industrial Management Applications 3 (2011): 355-362.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jia, James, et al. "Implementing a GPU-based Machine Learning Library on Apache Spark." (2016).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>Deep Learning</title><link href="http://ParisaGY.github.io/deep-learning.html" rel="alternate"></link><published>2017-01-14T01:00:00+01:00</published><updated>2017-01-14T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2017-01-14:/deep-learning.html</id><summary type="html">&lt;p&gt;Deep Learning
+One of the original objectives of machine learning was to allow computer systems model our world accurate 
+enough so that it can be called intelligence. 
+In order to do so, most of current research in machine learning tend to collect a large quantity of information 
+for computer systems …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Deep Learning
+One of the original objectives of machine learning was to allow computer systems model our world accurate 
+enough so that it can be called intelligence. 
+In order to do so, most of current research in machine learning tend to collect a large quantity of information 
+for computer systems to improve learning algorithms; the challenges of artificial intelligence, however, still remain. 
+Deep Learning, also known as deep structured learning, is a new branch in machine learning research introduced to move 
+machine learning closer to one of its original goals, artificial intelligence.&lt;/p&gt;
+&lt;p&gt;For many years, building a machine-learning system needed careful engineering and substantial domain 
+expertise to design a feature extractor.&lt;br&gt;
+Feature extractor transforms raw data into a suitable internal representation or feature vector 
+for the learning system. Using the set of extracted features, the next subsystem, often a classifier, 
+can detect or classify patterns in the input.&lt;/p&gt;
+&lt;p&gt;Deep Learning algorithms are proposed to be fed with raw data and then provide 
+automated discovery and extraction of complex data representations (features) 
+that are required for detection or classification. Such algorithms develop a layered, 
+hierarchical architecture of learning and representing data, where higher-level (more abstract) 
+features are defined in terms of lower-level (less abstract) features. These levels of representation are 
+obtained by creating simple but non-linear modules that each transform the representation at one level (starting with the 
+raw input) into a representation at a higher, slightly more abstract level.&lt;/p&gt;
+&lt;p&gt;References:
+-        Bengio, Yoshua. "Learning deep architectures for AI." Foundations and trends® in Machine Learning 2.1 (2009): 1-127.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. "Deep learning." Nature 521.7553 (2015): 436-444.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Najafabadi, Maryam M., et al. "Deep learning applications and challenges in big data analytics." Journal of Big Data 2.1 (2015): 1.&lt;/p&gt;</content></entry><entry><title>Graph Database</title><link href="http://ParisaGY.github.io/graph-database.html" rel="alternate"></link><published>2017-01-07T01:00:00+01:00</published><updated>2017-01-07T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2017-01-07:/graph-database.html</id><summary type="html">&lt;p&gt;Graph Database in Data Science
+Relational databases have been used in software applications for the last three decades. 
+Virtually all of these database systems use SQL (Structured Query Language) for querying and maintaining the database. 
+They store highly structured data in tables using predefined columns of certain types and many …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Graph Database in Data Science
+Relational databases have been used in software applications for the last three decades. 
+Virtually all of these database systems use SQL (Structured Query Language) for querying and maintaining the database. 
+They store highly structured data in tables using predefined columns of certain types and many rows of the same type of information. 
+Relational databases require developers to strictly structure the data used in their applications. 
+In relational databases, references to rows and tables are indicated by key attributes and via foreign-key columns. 
+This is compute- and memory-intensive and have an exponential cost for many-to-many relationships.&lt;/p&gt;
+&lt;p&gt;Graph database uses graph structures for semantic queries with nodes, edges and properties to store and represent data. 
+The relationships allow data to be linked together directly, and in many cases retrieved with a simple query. 
+DataStax and Neo4j are two examples of graph databases.&lt;/p&gt;
+&lt;p&gt;In data science, analyzing data is the key operation to learn a model tied to a particular representation of data. 
+For example, graph database can be used in natural processing language, deep learning text classification, or recommender system development. 
+Graph databases provide an efficient storage and also and traversal of information about relationships. 
+Hence, graphs can be the input or the output of a machine learning processing.&lt;/p&gt;
+&lt;p&gt;References:
+-        Wikipedia contributors. "Relational database." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 19 Jan. 2017. Web. 8 Feb. 2017.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Neo4j, “From Relational to Neo4j,” last access to: “https://neo4j.com/developer/graph-db-vs-rdbms,” Feb 8, 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wikipedia contributors. "Graph database." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 31 Jan. 2017. Web. 8 Feb. 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Neo4j, “The next wave of disruption: Graph-based machine learning,” last access to: “https://neo4j.com/news/next-wave-disruption-graph-based-machine-learning/,” Feb 8, 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>Learning python-part 2</title><link href="http://ParisaGY.github.io/learning-python-part-2.html" rel="alternate"></link><published>2016-12-28T01:00:00+01:00</published><updated>2016-12-28T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-28:/learning-python-part-2.html</id><summary type="html">&lt;h2&gt;Introduction to python iteration&lt;/h2&gt;
+&lt;p&gt;1) For loop: The for statement is used to iterate over the elements of a sequence.
+2) while loop: The while loop tells the computer to do something as long as the condition is met.&lt;/p&gt;
+&lt;h1&gt;Introduction to python-control-flow&lt;/h1&gt;
+&lt;p&gt;The general Python syntax for a simple if …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction to python iteration&lt;/h2&gt;
+&lt;p&gt;1) For loop: The for statement is used to iterate over the elements of a sequence.
+2) while loop: The while loop tells the computer to do something as long as the condition is met.&lt;/p&gt;
+&lt;h1&gt;Introduction to python-control-flow&lt;/h1&gt;
+&lt;p&gt;The general Python syntax for a simple if statement is:
+if condition:
+    indentedStatementBlock&lt;/p&gt;
+&lt;p&gt;The general Python if-else syntax is&lt;/p&gt;
+&lt;p&gt;if condition:
+    indentedStatementBlockForTrueCondition
+else:
+    indentedStatementBlockForFalseCondition&lt;/p&gt;
+&lt;p&gt;The syntax for an if-elif-else statement is indicated in general below:&lt;/p&gt;
+&lt;p&gt;if condition1:
+    indentedStatementBlockForTrueCondition1
+elif condition2:
+    indentedStatementBlockForFirstTrueCondition2
+elif condition3:
+    indentedStatementBlockForFirstTrueCondition3
+elif condition4:
+    indentedStatementBlockForFirstTrueCondition4
+else:
+    indentedStatementBlockForEachConditionFalse&lt;/p&gt;
+&lt;h2&gt;Introduction to function&lt;/h2&gt;
+&lt;p&gt;You can define functions to provide the required functionality. Here are simple rules to define a function in Python.&lt;/p&gt;
+&lt;p&gt;def functionname( parameters):
+   "function_docstring"
+   function_suite
+   return [expression]&lt;/p&gt;</content></entry><entry><title>Introduction to stats-primer-numpy</title><link href="http://ParisaGY.github.io/introduction-to-stats-primer-numpy.html" rel="alternate"></link><published>2016-12-27T01:00:00+01:00</published><updated>2016-12-27T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-27:/introduction-to-stats-primer-numpy.html</id><summary type="html">&lt;h2&gt;Introduction to stats-primer-numpy.&lt;/h2&gt;
+&lt;p&gt;There are two field of statistics:
+1)Descriptive statistics used to describe, summarize, and understand the data;
+2)Inferential statistics makes inferences and predictions about a population based on a sample of data taken from the population in question.&lt;/p&gt;
+&lt;p&gt;The distribution of a statistical dataset (or a …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction to stats-primer-numpy.&lt;/h2&gt;
+&lt;p&gt;There are two field of statistics:
+1)Descriptive statistics used to describe, summarize, and understand the data;
+2)Inferential statistics makes inferences and predictions about a population based on a sample of data taken from the population in question.&lt;/p&gt;
+&lt;p&gt;The distribution of a statistical dataset (or a population) is a list or function showing all the possible values (or intervals) of the data and how often they occur.&lt;/p&gt;
+&lt;p&gt;The Central Tendency provides descriptive information about the single numerical value that is considered to be the most typical of the values of a quantitative variable like mean, median, and mode.&lt;/p&gt;
+&lt;h2&gt;How to calculate mean, median, and mode?&lt;/h2&gt;
+&lt;p&gt;from numpy import mean, median
+from scipy.stats import mode
+mean(n)
+median(n)
+mode(n)
+where n is a list of float number.&lt;/p&gt;
+&lt;h2&gt;What is skewness?&lt;/h2&gt;
+&lt;p&gt;Skewness is lack of symmetry in a distribution of data.
+A positive-skewed distribution means the right side tail of the distribution is longer or fatter than the left.&lt;/p&gt;
+&lt;p&gt;Likewise a negative-skewed distribution means the left side tail is longer or fatter than the right.&lt;/p&gt;
+&lt;p&gt;Symmetric distributions have no skewness!&lt;/p&gt;
+&lt;p&gt;Negative skew: mean &amp;lt; median &amp;lt; mode
+Positive skew: mode &amp;lt; median &amp;lt; mean&lt;/p&gt;
+&lt;p&gt;OR&lt;/p&gt;
+&lt;p&gt;If the mean &amp;lt; median, the data are skewed left.
+If the mean &amp;gt; median, the data are skewed right.&lt;/p&gt;
+&lt;h2&gt;Introduction to Range, Variance and Standard Deviation&lt;/h2&gt;
+&lt;p&gt;1) The range is the difference between the lowest and highest values of a distribution and can be calculated with:&lt;/p&gt;
+&lt;p&gt;n_range = np.ptp(n)&lt;/p&gt;
+&lt;p&gt;2) The variance is a numeric value used to describe how widely the numbers distribution vary and can be calculated with:&lt;/p&gt;
+&lt;p&gt;variance = np.var(n)&lt;/p&gt;
+&lt;p&gt;3) The standard deviation is the square root of the variance.&lt;/p&gt;
+&lt;p&gt;std = np.std(n)&lt;/p&gt;
+&lt;p&gt;which is the average of the sum of the squared distances of each number from the mean of the numbers.&lt;/p&gt;</content></entry><entry><title>Introduction to git branching</title><link href="http://ParisaGY.github.io/introduction-to-git-branching.html" rel="alternate"></link><published>2016-12-22T01:00:00+01:00</published><updated>2016-12-22T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-22:/introduction-to-git-branching.html</id><summary type="html">&lt;p&gt;Introduction to git branching&lt;/p&gt;
+&lt;p&gt;Git Branching is used when you want to add a new feature or fix a bug, you spawn a new branch to encapsulate your changes. 
+This makes ensure that unstable code is never committed to the main code base, and it gives you the chance to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Introduction to git branching&lt;/p&gt;
+&lt;p&gt;Git Branching is used when you want to add a new feature or fix a bug, you spawn a new branch to encapsulate your changes. 
+This makes ensure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.&lt;/p&gt;
+&lt;p&gt;The followings are comments used to make a new branch.&lt;/p&gt;
+&lt;p&gt;a) git branch nameofbranch
+b) git check out nameofbranch
+Note: we can use git checkout -b nameofbranch which works as steps a and b.
+c) git merge nameofbranch: moves the work from branch into the master, merge the branch into the master when master is selected (have asterisk).
+d) git rebase master: adds the branch to the master when branch is selected.
+e) git merge nameofbranch: merges the branch to the master
+f)git branch -d nameofbranch&lt;/p&gt;</content></entry><entry><title>Introduction to Git/Github</title><link href="http://ParisaGY.github.io/introduction-to-gitgithub.html" rel="alternate"></link><published>2016-12-22T01:00:00+01:00</published><updated>2016-12-22T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-22:/introduction-to-gitgithub.html</id><summary type="html">&lt;p&gt;Introduction to Git
+Git is a series of commands that helps us to keep track of all the different versions of a file.Git allows us to do collaboration, manage conflicts 
+and recall a specific version later.&lt;/p&gt;
+&lt;p&gt;A git projects consists of three parts:
+a) working directory where you create …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Introduction to Git
+Git is a series of commands that helps us to keep track of all the different versions of a file.Git allows us to do collaboration, manage conflicts 
+and recall a specific version later.&lt;/p&gt;
+&lt;p&gt;A git projects consists of three parts:
+a) working directory where you create, modify and/or delete files;
+b) staging area where you list changes you make to the working directory;
+c) repository: where git permanently saves all the changes.&lt;/p&gt;
+&lt;p&gt;The followings are some useful commands we need to use to set up a repository.&lt;/p&gt;
+&lt;p&gt;1) git init: this command initializes all the tools that "git" needs to begin tracking of changes in a file.&lt;/p&gt;
+&lt;p&gt;2) git status: shows the status of the changes after you modify a file.&lt;/p&gt;
+&lt;p&gt;3) git add filename: used to add a file to the staging area.
+Note: git add . adds all the changes of all the files to the staging area.&lt;/p&gt;
+&lt;p&gt;4) git diff filename: used to show the differences between the working directory and the staging area.&lt;/p&gt;
+&lt;p&gt;5) git commit -m "The comments" : used to permanently stores changes from the staging area inside the repository&lt;/p&gt;
+&lt;p&gt;6) git log: Shows the commit logs&lt;/p&gt;
+&lt;p&gt;Introduction to Github
+Github is a developer social network.Github uses git and hosting service for the git repository.&lt;/p&gt;
+&lt;p&gt;Introduction to repository:
+A repository holds all versions of a file and tracked changes.
+A brand new repository can be created by git init and an existing remote repository can be cloned to the local machine by git clone.&lt;/p&gt;</content></entry><entry><title>useful command in pyhton</title><link href="http://ParisaGY.github.io/useful-command-in-pyhton.html" rel="alternate"></link><published>2016-12-07T11:10:00+01:00</published><updated>2016-12-07T11:10:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-07:/useful-command-in-pyhton.html</id><summary type="html">&lt;p&gt;Some useful commands python
+Python is a very powerful programming language. In this blog I am going to share some of cool stuff I learn during the GA program about python.&lt;/p&gt;
+&lt;p&gt;1) Ask a user to input a string:
+reply = raw_input('Enter text, [type "stop" to quit]: ')&lt;/p&gt;
+&lt;p&gt;2) Ask a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some useful commands python
+Python is a very powerful programming language. In this blog I am going to share some of cool stuff I learn during the GA program about python.&lt;/p&gt;
+&lt;p&gt;1) Ask a user to input a string:
+reply = raw_input('Enter text, [type "stop" to quit]: ')&lt;/p&gt;
+&lt;p&gt;2) Ask a user to input a string:
+reply = input("How many pounds does your suitcase weigh? ")&lt;/p&gt;
+&lt;p&gt;Note: In pyhton 2.x-
+raw_input() takes whatever is typed on the console and returns it as a string.&lt;/p&gt;
+&lt;p&gt;input() takes whatever is typed on the console and evaluates it as a python statement. It is required that you type a syntactically correct statement.&lt;/p&gt;
+&lt;p&gt;In Python 3.x-&lt;/p&gt;
+&lt;p&gt;input() works the same way as raw_input() does in Python2. raw_input() is non-existent.&lt;/p&gt;
+&lt;p&gt;3) One of the cool things I learned was about .copydeepcopy(). In the following paragraphs I will tak about how and when we need to use this command.&lt;/p&gt;
+&lt;p&gt;Consider you generate a list of data. &lt;/p&gt;
+&lt;p&gt;df = [1,2,3,4,5]&lt;/p&gt;
+&lt;p&gt;Then, you would like to generate a new list that has all the elements of the previous list except the first element. You probably do this:&lt;/p&gt;
+&lt;p&gt;df_new= df[1:]&lt;/p&gt;
+&lt;p&gt;Although, you did not change the original variable, when you print it, the original data also changes. 
+So, what is the solution?&lt;/p&gt;
+&lt;p&gt;maybe the first solution that comes to your mind is:&lt;/p&gt;
+&lt;p&gt;df_copy = df&lt;/p&gt;
+&lt;p&gt;df_new= df_copy[1:]&lt;/p&gt;
+&lt;p&gt;It is interesting that this solution does not work either. The solution I found is to import a library called "copy" and use it to make a copy of 
+the original data.&lt;/p&gt;
+&lt;p&gt;import copy
+df_copy = copy.deepcopy(df)&lt;/p&gt;
+&lt;p&gt;df_new= df_copy[1:]&lt;/p&gt;
+&lt;p&gt;In this way you can make a copy from your data, modify the copy version without being worried about the original data. &lt;/p&gt;</content></entry><entry><title>My First Story</title><link href="http://ParisaGY.github.io/my-first-story.html" rel="alternate"></link><published>2016-12-01T01:00:00+01:00</published><updated>2016-12-01T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-01:/my-first-story.html</id><summary type="html">&lt;p&gt;My first story: About two weeks ago, we had the first outcome session in General Assembly (GA). Joy asked everybody in the class "what are you most proud of yourself?" I said I am proud of myself because I am a hardworking person. Yesterday, I thought about it again and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My first story: About two weeks ago, we had the first outcome session in General Assembly (GA). Joy asked everybody in the class "what are you most proud of yourself?" I said I am proud of myself because I am a hardworking person. Yesterday, I thought about it again and I found another reason I am proud of myself; I QUIT the job that I did not enjoy. I did not like my previous job and I am very happy for myself that decided to quit and start a new path in my life.
+When I decided to register to this program, it was scary at first, because I worked in a different field for about one and half years, no coding, no research, and I had forgotten a lot of things. Now, I am happy that I decided to register since I enjoy every moment of doing coding.&lt;/p&gt;</content></entry></feed>

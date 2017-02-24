@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Parisa's Blog - Python</title><link href="http://ParisaGY.github.io/" rel="alternate"></link><link href="http://ParisaGY.github.io/feeds/python.atom.xml" rel="self"></link><id>http://ParisaGY.github.io/</id><updated>2016-12-28T01:00:00+01:00</updated><entry><title>Learning python-part 2</title><link href="http://ParisaGY.github.io/learning-python-part-2.html" rel="alternate"></link><published>2016-12-28T01:00:00+01:00</published><updated>2016-12-28T01:00:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-28:/learning-python-part-2.html</id><summary type="html">&lt;h2&gt;Introduction to python iteration&lt;/h2&gt;
+&lt;p&gt;1) For loop: The for statement is used to iterate over the elements of a sequence.
+2) while loop: The while loop tells the computer to do something as long as the condition is met.&lt;/p&gt;
+&lt;h1&gt;Introduction to python-control-flow&lt;/h1&gt;
+&lt;p&gt;The general Python syntax for a simple if …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction to python iteration&lt;/h2&gt;
+&lt;p&gt;1) For loop: The for statement is used to iterate over the elements of a sequence.
+2) while loop: The while loop tells the computer to do something as long as the condition is met.&lt;/p&gt;
+&lt;h1&gt;Introduction to python-control-flow&lt;/h1&gt;
+&lt;p&gt;The general Python syntax for a simple if statement is:
+if condition:
+    indentedStatementBlock&lt;/p&gt;
+&lt;p&gt;The general Python if-else syntax is&lt;/p&gt;
+&lt;p&gt;if condition:
+    indentedStatementBlockForTrueCondition
+else:
+    indentedStatementBlockForFalseCondition&lt;/p&gt;
+&lt;p&gt;The syntax for an if-elif-else statement is indicated in general below:&lt;/p&gt;
+&lt;p&gt;if condition1:
+    indentedStatementBlockForTrueCondition1
+elif condition2:
+    indentedStatementBlockForFirstTrueCondition2
+elif condition3:
+    indentedStatementBlockForFirstTrueCondition3
+elif condition4:
+    indentedStatementBlockForFirstTrueCondition4
+else:
+    indentedStatementBlockForEachConditionFalse&lt;/p&gt;
+&lt;h2&gt;Introduction to function&lt;/h2&gt;
+&lt;p&gt;You can define functions to provide the required functionality. Here are simple rules to define a function in Python.&lt;/p&gt;
+&lt;p&gt;def functionname( parameters):
+   "function_docstring"
+   function_suite
+   return [expression]&lt;/p&gt;</content></entry><entry><title>useful command in pyhton</title><link href="http://ParisaGY.github.io/useful-command-in-pyhton.html" rel="alternate"></link><published>2016-12-07T11:10:00+01:00</published><updated>2016-12-07T11:10:00+01:00</updated><author><name>ParisaGY</name></author><id>tag:parisagy.github.io,2016-12-07:/useful-command-in-pyhton.html</id><summary type="html">&lt;p&gt;Some useful commands python
+Python is a very powerful programming language. In this blog I am going to share some of cool stuff I learn during the GA program about python.&lt;/p&gt;
+&lt;p&gt;1) Ask a user to input a string:
+reply = raw_input('Enter text, [type "stop" to quit]: ')&lt;/p&gt;
+&lt;p&gt;2) Ask a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some useful commands python
+Python is a very powerful programming language. In this blog I am going to share some of cool stuff I learn during the GA program about python.&lt;/p&gt;
+&lt;p&gt;1) Ask a user to input a string:
+reply = raw_input('Enter text, [type "stop" to quit]: ')&lt;/p&gt;
+&lt;p&gt;2) Ask a user to input a string:
+reply = input("How many pounds does your suitcase weigh? ")&lt;/p&gt;
+&lt;p&gt;Note: In pyhton 2.x-
+raw_input() takes whatever is typed on the console and returns it as a string.&lt;/p&gt;
+&lt;p&gt;input() takes whatever is typed on the console and evaluates it as a python statement. It is required that you type a syntactically correct statement.&lt;/p&gt;
+&lt;p&gt;In Python 3.x-&lt;/p&gt;
+&lt;p&gt;input() works the same way as raw_input() does in Python2. raw_input() is non-existent.&lt;/p&gt;
+&lt;p&gt;3) One of the cool things I learned was about .copydeepcopy(). In the following paragraphs I will tak about how and when we need to use this command.&lt;/p&gt;
+&lt;p&gt;Consider you generate a list of data. &lt;/p&gt;
+&lt;p&gt;df = [1,2,3,4,5]&lt;/p&gt;
+&lt;p&gt;Then, you would like to generate a new list that has all the elements of the previous list except the first element. You probably do this:&lt;/p&gt;
+&lt;p&gt;df_new= df[1:]&lt;/p&gt;
+&lt;p&gt;Although, you did not change the original variable, when you print it, the original data also changes. 
+So, what is the solution?&lt;/p&gt;
+&lt;p&gt;maybe the first solution that comes to your mind is:&lt;/p&gt;
+&lt;p&gt;df_copy = df&lt;/p&gt;
+&lt;p&gt;df_new= df_copy[1:]&lt;/p&gt;
+&lt;p&gt;It is interesting that this solution does not work either. The solution I found is to import a library called "copy" and use it to make a copy of 
+the original data.&lt;/p&gt;
+&lt;p&gt;import copy
+df_copy = copy.deepcopy(df)&lt;/p&gt;
+&lt;p&gt;df_new= df_copy[1:]&lt;/p&gt;
+&lt;p&gt;In this way you can make a copy from your data, modify the copy version without being worried about the original data. &lt;/p&gt;</content></entry></feed>
